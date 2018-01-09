@@ -1,0 +1,307 @@
+
+body {
+  background-color: #dddddd;
+  /*background-image: url("Assets/Images/Screen\ Shot\ 2017-11-27\ at\ 1.25.15\ PM.png");*/
+  background-image: url("/bg.png");
+  /*overflow-x: hidden;*/
+}
+
+.btn-primary {
+  background-color: #4682b4;
+  color: #f5f5f5;
+}
+
+.btn-primary:hover {
+  background-color: #326ea0;
+  color: #f5f5f5;
+}
+
+.input-group {
+  margin: 0px 10px;
+}
+
+.navbar {
+  background-color: #4682b4;
+}
+
+#navbar .navbar-brand {
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  color: #f5f5f5;
+}
+
+.sign-out-button {
+  background-color: #f5f5f5;
+  color: #212529;
+}
+
+.sign-out-button:hover {
+  background-color: #f0f8ff;
+  color: #4682b4;
+}
+
+#main-container {
+  position: relative;
+  min-height: 100%;
+}
+
+#chat-col {
+  background-color: #f5f5f5;
+  margin: 0px 0px;
+  padding: 0px 15px;
+}
+
+
+#messages {
+  padding: 2px 2px;
+  border-radius: 10px 0px 0px 10px;
+  overflow-y: scroll;
+}
+
+#messages::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border-width: 0.5px;
+  border: solid;
+  border-color: #f5f5f5;
+  background: #e1e1e1;
+  margin: 4px 0px;
+}
+
+#messages::-webkit-scrollbar {
+  background: #f5f5f5;
+  width: 12px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border-width: 0.5px;
+  border: solid;
+  border-color: #f5f5f5;
+  background: #cdcdcd;
+}
+
+#messages::-webkit-scrollbar-thumb:hover {
+  background: #c3c3c3;
+}
+
+.message {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d8dfe5;
+  background-color: #F0F8FF;
+}
+
+.message .col {
+  margin: 0px;
+  padding: 5px;
+}
+
+.message-sender {
+  font-size: 16px;
+}
+
+.current-user {
+  text-decoration: underline;
+}
+
+.message hr {
+  margin: 1px 0px 3px 0px;
+}
+
+.message-body {
+  font-size: 16px;
+  margin: 0px;
+  color: #4078a5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.attachment-row {
+  padding: 5px 25px;
+}
+
+.gif-attachment {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.video-attachment {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.profile-image {
+  width: 48px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#input {
+  padding: 2px;
+}
+
+#message-input {
+  margin: 5px 5px 5px 5px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+#message-input .col {
+  padding: 0px;
+}
+
+#attachment-button {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#m {
+  border-radius: 0px;
+  background-color: #f8f9fa;
+}
+
+#send-button {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.attachment-search {
+  padding: 10px 0px;
+}
+
+.search-results {
+  min-height: 200px;
+  max-height: 400px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.search-results::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border-width: 0.5px;
+  border: solid;
+  border-color: #ffffff;
+  background: #dddddd;
+  margin: 0px 0px;
+}
+
+.search-results::-webkit-scrollbar {
+  background: #ffffff;
+  width: 12px;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border-width: 0.5px;
+  border: solid;
+  border-color: #ffffff;
+  background: #bbbbbb;
+}
+
+.search-results::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+
+.giphy-result-holder {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.giphy-result-gif[data-selected='true'] {
+  box-shadow: 0px 0px 5px 5px #0079fa;
+}
+
+.giphy-result-gif {
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.youtube-result-data hr {
+  margin: 1px 0px 3px 0px;
+}
+
+.youtube-result-holder {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d8dfe5;
+  background-color: #f0f8ff;
+}
+
+.youtube-result-holder[data-selected='true'] {
+  box-shadow: 0px 0px 5px 5px #0079fa;
+}
+
+.youtube-result-holder .col {
+  margin: 0px;
+  padding: 5px;
+}
+
+.youtube-result-holder < .col {
+  margin: 0px;
+  padding: 0px;
+}
+
+.youtube-result-thumbnail {
+  border-radius: 10px;
+}
+
+.youtube-result-title {
+  font-size: 16px;
+}
+
+.youtube-result-channel {
+  font-size: 14px;
+}
+
+.attachment-input-header, .attachment-input-body > .row {
+  padding: 5px 5px;
+  margin: 0px;
+}
+
+.attachment-input > .card-header {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.attachment-input-body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.attachment-holder {
+  position: relative;
+  padding: 0px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.attachment-preview {
+  height: 50px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.attachment-remove {
+  position: absolute;
+  line-height: 18px;
+  height: 20px;
+  width: 20px;
+  top: 0px;
+  right: 0px;
+  color: white;
+  background: #ff3030;
+  border-radius: 50%;
+  text-align: center;
+
+  display: none;
+  vertical-align: middle;
+}
+
+.attachment-holder:hover > .attachment-remove {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.modal {
+  min-width: 495px;
+}
